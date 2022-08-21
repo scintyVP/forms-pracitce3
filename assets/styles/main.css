@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300&display=swap");
+* {
+  box-sizing: border-box;
+  font-family: "Nunito", sans-serif;
+}
+h2 {
+  font-size: 43px;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.content {
+  width: 1000px;
+  margin: 0 auto;
+  border: 1px solid grey;
+  border-radius: 15px;
+  display: flex;
+  position: relative;
+}
+.container {
+  width: 100%;
+  padding-top: 35px;
+}
+
+header.header {
+  display: flex;
+  padding: 10px;
+  gap: 10px;
+  background-color: lightgrey;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  position: absolute;
+  width: 100%;
+}
+
+span.white-circle {
+  background-color: white;
+  width: 15px;
+  height: 15px;
+  display: flex;
+  gap: 10px;
+  border-radius: 100%;
+}
+
+nav.navigation {
+  width: 100%;
+  display: flex;
+}
+a.logo {
+  font-size: 25px;
+}
+ul.navigation-list {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+  align-items: center;
+}
+ul.navigation-list li span.white-circle:hover {
+  background-color: black;
+  transition: 1000ms ease-in-out all;
+}
+ul.navigation-list li a:hover {
+  color: black;
+  transition: ease-in-out 1000ms all;
+}
+.background-image {
+  background-image: url("https://i.ibb.co/bgQHnNX/stairs.png");
+  background-repeat: no-repeat;
+  height: 850px;
+  border-bottom-left-radius: 15px;
+}
+
+form.get-started-form {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  border-bottom-right-radius: 15px;
+}
+.form-heading {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.main-input {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 12px 50px;
+  gap: 5px;
+}
+.primary-label {
+  width: fit-content;
+  font-weight: bold;
+  font-size: 13px;
+}
+.primary-input {
+  height: 40px;
+  border: 1px solid grey;
+  border-radius: 5px;
+}
+.primary-input:focus {
+  background-color: #f0f0f0;
+}
+.text-area {
+  display: flex;
+  flex-direction: column;
+}
+.text-area-box {
+  height: 100px;
+}
+.text-area-box:focus {
+  background-color: #f0f0f0;
+}
+.checkbox-heading {
+  width: fit-content;
+  margin-left: 50px;
+  font-size: 13px;
+  height: fit-content;
+}
+.checkbox-input {
+  display: flex;
+  width: 100%;
+  font-size: 13px;
+}
+.checkbox-field-left {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  padding-left: 40px;
+  gap: 10px;
+}
+.checkbox-field-right {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  gap: 10px;
+}
+.primary-checkbox {
+  display: flex;
+}
+
+.secondary-label {
+  display: flex;
+}
+
+.submit-button {
+  text-align: center;
+  width: 100%;
+  margin-top: 20px;
+}
+.primary-button {
+  width: 400px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #000a44;
+  background-color: #000a44;
+  color: white;
+  cursor: pointer;
+}
